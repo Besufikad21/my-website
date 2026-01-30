@@ -24,15 +24,47 @@
 img {
     width: 200px; /* የፎቶው ስፋት */
     border-radius: 50%; /* ፎቶውን ክብ ያደርገዋል */
-    border: 5px solid #3498db; /* በፎቶው ዙሪያ ሰማያዊ ፍሬም ያደርጋል */
+    border: 5px solid #2ecc71; /* በፎቶው ዙሪያ ሰማያዊ ፍሬም ያደርጋል */
     margin-top: 20px;
 }
+a {
+    display: inline-block;
+    background-color: #2ecc71; /* ሰማያዊ ከለር */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none; /* ከስሩ ያለውን መስመር ለማጥፋት */
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: 0.3s; /* ሲነካ ቀስ ብሎ እንዲቀየር */
+}
+
+a:hover {
+    background-color: #2980b9; /* ማውዙ ሲያርፍበት ከለሩ እንዲጠቁር */
+}
+footer {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #888;
+    border-top: 1px solid #eee;
+    width: 80%;
+    text-align: center;
+}
+
     </style>
 </head>
 <body>
     <h1>እንኳን ደህና መጣህ!</h1>
     <p>ይህ በ CSS ያጌጠ የመጀመሪያው ገጼ ነው።</p>
     <img src="Besu.jpg" alt="የእኔ ፎቶ">
+<a href="https://t.me/yourusername" target="_blank">ቴሌግራም ላይ አግኙኝ</a>
+<p><a href="about.html">ስለ እኔ የበለጠ ለማወቅ እዚህ ይጫኑ</a></p>
+
+<footer>
+    <p>© 2024 በ[በሱፍቃድ] የተዘጋጀ</p>
+</footer>
+
+
 
 </body>
 </html>
